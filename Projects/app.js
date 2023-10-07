@@ -1,14 +1,14 @@
 var addBtn=document.getElementById("add-task")
-var task Input=document.getElementById("task")
-var task list=doucemt.getElementById("tasks")
+var taskInput=document.getElementById("task")
+var tasklist=doucemt.getElementById("tasks")
 addBtn.addEventListener("click",function(){
-    var task=task Input. value
-    add task(task)
-    task Input.value=""
+    var task=taskInput. value
+    addtask(task)
+    taskInput.value=""
 
 })
-function add Task(task){
-    var li=Document.create Element("li")
+function addTask(task){
+    var li=Document.createElement("li")
     li.innerHTML=task
 taskList.appendchild(li)
 }

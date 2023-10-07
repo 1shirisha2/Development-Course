@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>To-doList</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .input-box{
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
     <h1>To-do List</h1>
     <form>
-        <input type="text" id="task" placeholder="Add task here"
-        <button type="button"id="add-task">Add</button>
+        
+        <input class="input-box" id="task" placeholder="Add task here"/>
+        <br/>
+        <button type="button" id="add-task">Add</button>
         
     </form>
     <ul id="tasks"></ul>
+
+ </div>
     <script type="text/javascript" src="app.js"></script>
-</body>S
+</body>
 </html>
