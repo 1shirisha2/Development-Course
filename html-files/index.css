@@ -1,44 +1,22 @@
-body,html{
-margin: 0;
-padding: auto;
- }
-/* container layout */ 
-body {
-    display: flex;
-min-height: 100vh;
+.imag{
+    height:40vh;
+    width:40vw;
 }
-/* header styles */
-header{
-    background-color: rgb(76, 74, 74);
-    color:white;
-    padding:20px;
-    text-align:center;
-}
-/* container styles */
 .container{
     display: flex;
-    flex:1;
-    }
-aside{
-    background-color: bisque;
-    padding: 20px;
-}
-.left-sidebar{
-    flex: 1;
-}
-.right-sidebar{
-    flex: 1;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction:row;
     
-}
-/* main content styles */
-main{
-    flex:2;
-    padding: 20;
 
 }
-footer{
-    background-color: rgb(73, 69, 69);
-    color:white;
-    padding: 10px;
-    text-align: center;
+.discription{
+display: flex;
+align-items: center;
+margin-right: 5px;
+
+}
+.imag-container{
+    margin-left: 5px;
+
 }

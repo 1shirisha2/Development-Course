@@ -1,29 +1,40 @@
 .container{
     display:flex;
-    height:500px;
-    width:300px;
     flex-direction:row;
     justify-content:space-around;
     justify-items: center;
-    background-color:aqua;
+    
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
+    color: white;
+    justify-content: center;
+ 
 }
 .box{
     width:100px;
     height:100px;
     text-align: center;
 
+  
+
     
 }
 .red{
     background-color: rgb(224, 23, 23);
+
+
 }
  .blue{
-    /* align-self: flex-end;  */
+    align-self: flex-end; 
     background-color: rgb(46, 8, 172);
 }
 .yellow{
     background-color:yellow;
+}
+.pink{
+    background-color: rgb(206, 117, 132);
+}
+.black{
+    background-color: black;
 }
