@@ -1,0 +1,20 @@
+form{
+    margin-bottom: 20px;
+    
+}
+
+#task{
+    width: 70%;
+    padding: 20px;
+    margin:8px;
+    box-sizing: border-box;
+}
+button{
+    width: 70px;
+    background-color: green;
+    color: white;
+    padding:12px;
+    margin:8px;
+    border:none;
+    text-align: center;
+}
