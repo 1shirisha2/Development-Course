@@ -8,13 +8,14 @@
     font-size: 30px;
     margin-top: 50px;
     color: white;
-    justify-content: center;
+    
  
 }
 .box{
     width:100px;
     height:100px;
     text-align: center;
+   
 
   
 
@@ -22,7 +23,7 @@
 }
 .red{
     background-color: rgb(224, 23, 23);
-
+align-content: flex-end;
 
 }
  .blue{
