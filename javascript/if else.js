@@ -58,9 +58,16 @@
 
 //  
 
-let name ="shirisha"
-if(true){
-  let name="akshaya"
-  console.log("name1",name)
+// let name ="shirisha"
+// if(true){
+//   let name="akshaya"
+//   console.log("name1",name)
+// }
+// console.log("name2",name)
+
+let n=5
+if(n>5){
+  console.log("shirisha")
+}else{
+  console.log("akshaya")
 }
-console.log("name2",name)
