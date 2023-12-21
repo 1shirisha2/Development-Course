@@ -65,26 +65,22 @@
 //     name:"shirisha",
 //     age: 21
 // }
-// studentDetails['city']="hyderabad"
+
+// studentDetails.city="hyderabad"
 // studentDetails.flat=103
 // console.log(studentDetails)
 
 
-// const teacherDetails={
-//     tname:"shirisha",
-//     tage:30
-// }
-// const studentDetails={
-//     name:"akshaya",
-//     age:21
-// }
-// const newDetails={...studentDetails,...teacherDetails}
-// console.log(newDetails)
+const teacherDetails={
+    tname:"shirisha",
+    tage:30
+}
+const studentDetails={
+    name:"akshaya",
+    age:21
+}
+const newDetails={...studentDetails,...teacherDetails}
+console.log(newDetails)
 
 
 
-const names=["Hardik","sneha","varnika","akhila"]
-const details[{name:shirisha,age:22},{name:"akshaya",age:32},{name:"sahanvi",age:8}]
-details.map((item)=>{
-    console.log(item)
-})

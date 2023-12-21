@@ -52,8 +52,19 @@
 // let name ="akshaya"
 // console.log(num1+num2+name)
 
-let num1=23
-let num2=12
-console.log(num1+num2)
+// let num1=23
+// let num2=12
+// console.log(num1+num2)
 
+
+const fullNumber = '2034399002125581';
+const last4Digits = fullNumber.slice(-4);
+const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
+
+console.log(maskedNumber)
+
+const name = "shirisha"
+const number = name.slice(-4)
+const markNumber = number.padStart(name.length, '*')
+console.log(markNumber)
 
